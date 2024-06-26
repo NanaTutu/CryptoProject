@@ -1,23 +1,267 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Templates</title>
-</head>
-<body>
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>astrocorgi</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <main>
-        <ul>
-            <li><a href="one/index.html">Template 1</a></li>
-            <li><a href="two/index.html">Template 2</a></li>
-            <li><a href="three/index.html">Template 3</a></li>
-            <li><a href="four/index.html">Template 4</a></li>
-            <li><a href="five/index.html">Template 5</a></li>
-            <li><a href="six/index.html">Template 6</a></li>
-            <li><a href="seven/index.html">Template 7</a></li>
-        </ul>
-    </main>
-    
-</body>
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+        <!-- Place favicon.png in the root directory -->
+
+		<!-- ========================= CSS here ========================= -->
+		<link rel="stylesheet" href="assets/css/bootstrap-5.0.0-alpha-1.min.css">
+        <link rel="stylesheet" href="assets/css/LineIcons.2.0.css">
+		<link rel="stylesheet" href="assets/css/animate.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- ========================= preloader start ========================= -->
+            <div class="preloader d-none">
+                <div class="loader">
+                    <div class="ytp-spinner">
+                        <div class="ytp-spinner-container">
+                            <div class="ytp-spinner-rotator">
+                                <div class="ytp-spinner-left">
+                                    <div class="ytp-spinner-circle"></div>
+                                </div>
+                                <div class="ytp-spinner-right">
+                                    <div class="ytp-spinner-circle"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- preloader end -->
+
+        <!-- ========================= header start ========================= -->
+        <header class="header navbar-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="assets/img/transparent_logo.png" alt="Logo">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="page-scroll active" href="#home">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#about">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#service">Whitepaper</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#roadmap">Roadmap</a>
+                                    </li>
+                                    <!-- <li class="nav-item">
+                                        <a class="page-scroll" href="#team">Team</a>
+                                    </li> -->
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        
+        </header>
+        <!-- ========================= header end ========================= -->
+
+        <!-- ========================= hero-section start ========================= -->
+        <section id="home" class="hero-section">
+            <div class="shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-7 col-lg-7">
+                        <div class="hero-content-wrapper frosted">
+                            <h1 class="text-white wow fadeInDown" data-wow-delay=".2s">AstroCorgi</h1>
+                            <p class="text-white wow fadeInLeft"  data-wow-delay=".4s">Contract Address: 8rBBTXLeF6KNXEjC1eP6RghG8cAMz61QvUakEZoinsk6</p>
+                            <a href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=8rBBTXLeF6KNXEjC1eP6RghG8cAMz61QvUakEZoinsk6&fixed=in" class="theme-btn wow fadeInUp"  data-wow-delay=".6s">Buy $ACGI</a>
+                            <a href="https://dexscreener.com/solana/6s6hwszh82hfb1mmspmhtrjlufeshqc9v8m6s8vsdxl6" class="theme-btn wow fadeInUp"  data-wow-delay=".6s">Chart</a>
+                            <a href="https://solscan.io/token/8rBBTXLeF6KNXEjC1eP6RghG8cAMz61QvUakEZoinsk6" class="theme-btn wow fadeInUp"  data-wow-delay=".6s">Solscan</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5">
+                        <div class="hero-img">
+                            <img src="assets/img/corgi.svg" alt="" class="wow fadeInRight"  data-wow-delay=".5s">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= hero-section end ========================= -->
+
+        <!-- ========================= about-section start ========================= -->
+        <section id="about" class="about-section pt-150 pb-20">
+            <div class="container">
+                <div class="row align-items-center frosted">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="about-img mb-30">
+                            <img src="assets/img/corgitwo.svg" alt="image" class=" wow fadeInLeft" data-wow-delay=".4s">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="about-content mb-30">
+                            <div class="section-title mb-40">
+                                <h2 class="wow fadeInUp text-white" data-wow-delay=".2s">About Us</h2>
+                            </div>
+                            <p class="mb-15 wow fadeInUp text-white" data-wow-delay=".4s">
+                                Astrocorgi is more than a token on Solana; it's your ticket to an interstellar journey. As part of our space-themed crypto universe, 
+                                $ACGI holders enjoy a range of unique benefits and become integral members of an expanding cosmic community.
+                            </p>
+                            <p class="mb-30 wow fadeInUp text-white" data-wow-delay=".6s">
+                                Have a say in our intergalactic voyage. Your involvement directly influences the project's trajectory and community initiatives.
+                                Enjoy early access to space-themed NFTs, special events, and educational content that broadens your cosmic and crypto knowledge. 
+                            </p>
+                            <p class="mb-30 wow fadeInUp text-white" data-wow-delay=".6s">
+                                Participate in staking, missions, and challenges designed to reward active community members and token holders.
+                                As we explore new frontiers, your $ACGI holdings unlock new opportunities for learning, earning, and contributing to space exploration's future.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= about-section end ========================= -->
+
+        <!-- ========================= whitepaper start ========================= -->
+        <section id="service" class="service-section pt-150 pb-120">
+            <div class="container text-center frosted">
+            <h1 class="mb-55 text-white">Whitepaper</h1>
+            <a href="https://drive.google.com/file/d/1Hqrzgewi0-lZY4vm2h_SbtoEPrNOefKw/view?usp=drive_link" rel="nofollow" target="_blank" class="theme-btn wow fadeInUp" data-wow-delay=".6s">Download Whitepaper</a>
+            </div>
+        </section>
+        <!-- ========================= white end ========================= -->
+
+        <!-- ========================= roadmap start ========================= -->
+        <section id="roadmap" class="countdown-section pt-70 pb-70 img-bg">
+            <div class="container">
+                <div class="row align-items-center frosted">
+                    <h1 class="text-center mb-55 text-white">Roadmap</h1>
+                    <div class="col-xl-6 col-lg-6">
+                        <h3 class="text-white mb-35  wow fadeInUp" data-wow-delay=".2s">Phase 1 - Foundation and Engagement</h3>
+                        <h5 class="text-white mb-10 wow fadeInUp" data-wow-delay=".2s">H1 - Launch and Community Building</h5>
+                            <ul class="mb-30">
+                                <li class="text-white mb-10 wow fadeInUp">* OFFICIAL LAUNCH OF THE ASTROCORGI ($ACGI) TOKEN.</li>
+                                <li class="text-white mb-10 wow fadeInUp">* CREATION OF DISCORD AND TELEGRAM COMMUNITIES.</li>
+                                <li class="text-white mb-10 wow fadeInUp">* INITIATION OF THE ASTROCORGI AMBASSADOR PROGRAM TO FOSTER COMMUNITY GROWTH.</li>
+                                <li class="text-white mb-10 wow fadeInUp">* LAUNCH OF THE FIRST MEME AIRDROP CAMPAIGN TO CREATE VIRAL BRAND AWARENESS.</li>
+                            </ul>
+
+                        <h5 class="text-white mb-10  wow fadeInUp" data-wow-delay=".2s">H2 - Visibility and Expansion</h5>
+                            <ul class="mb-30">
+                                <li class="text-white mb-10 wow fadeInUp">* APPLICATION FOR LISTINGS ON COINMARKETCAP (CMC) AND COINGECKO (CG).</li>
+                                <li class="text-white mb-10 wow fadeInUp">* DEVELOPMENT OF THE ASTROCORGI ADVERTISEMENT PLATFORM FOR COMMUNITY-DRIVEN PROMOTIONS.</li>
+                                <li class="text-white mb-10 wow fadeInUp">* EXPANSION OF SOCIAL MEDIA PRESENCE, AIMING FOR 50K FOLLOWERS ON TWITTER AND 20K MEMBERS ON TELEGRAM.</li>
+                                <li class="text-white mb-10 wow fadeInUp">* ROLLOUT OF ADDITIONAL MEME AIRDROP CAMPAIGNS TO MAINTAIN ENGAGEMENT AND ATTRACT NEW USERS.</li>
+                            </ul>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <h3 class="text-white mb-35  wow fadeInUp" data-wow-delay=".2s">Phase 2 - Growth and Innovation</h3>
+                        <h5 class="text-white mb-10 wow fadeInUp" data-wow-delay=".2s">H1 - Ecosystem Development</h5>
+                            <ul class="mb-30">
+                                <li class="text-white mb-10 wow fadeInUp">* LAUNCH OF THE ZEALY CAMPAIGNS TO INCENTIVIZE COMMUNITY PARTICIPATION AND TOKEN UTILITY.</li>
+                                <li class="text-white mb-10 wow fadeInUp">* ENHANCEMENT OF THE AMBASSADOR PROGRAM WITH NEW TIERS AND REWARDS.</li>
+                                <li class="text-white mb-10 wow fadeInUp">* INTRODUCTION OF EDUCATIONAL CONTENT AND INTERACTIVE SPACE MISSIONS TO ENGAGE THE COMMUNITY.</li>
+                                <li class="text-white mb-10 wow fadeInUp">* DEVELOPMENT AND BETA TESTING OF THE ASTROCORGI ADVERTISEMENT PLATFORM.LAUNCH OF THE FIRST MEME AIRDROP CAMPAIGN TO CREATE VIRAL BRAND AWARENESS.</li>
+                            </ul>
+
+                        <h5 class="text-white mb-10  wow fadeInUp" data-wow-delay=".2s">H2 - Scalability and Partnership</h5>
+                            <ul class="mb-30">
+                                <li class="text-white mb-10 wow fadeInUp">* OFFICIAL RELEASE OF THE ASTROCORGI ADVERTISEMENT PLATFORM.</li>
+                                <li class="text-white mb-10 wow fadeInUp">* APPLICATION FOR LISTING ON MAJOR EXCHANGES SUCH AS BINANCE TO INCREASE TOKEN ACCESSIBILITY AND LIQUIDITY.</li>
+                                <li class="text-white mb-10 wow fadeInUp">* ESTABLISH STRATEGIC PARTNERSHIPS WITH OTHER PROJECTS AND EDUCATIONAL PLATFORMS.</li>
+                                <li class="text-white mb-10 wow fadeInUp">* REVIEW AND EXPANSION OF THE ASTROCORGI ECOSYSTEM BASED ON COMMUNITY FEEDBACK AND MARKET TRENDS.</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= roadmap end ========================= -->
+
+        <!-- ========================= contact-section start ========================= -->
+        <section id="contact" class="footer contact-section pt-120 pb-105">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-12 col-lg-12 justify-content-center align-content-center text-center">
+                        <div class="contact-wrapper mb-30 frosted">
+                            <a href="mailto:astrocorgii@gmail.com">
+                                <h2 class="mb-20 wow fadeInDown text-center text-white" data-wow-delay=".2s">astrocorgii@gmail.com</h2>
+                            </a>
+                            <div class="footer-widget mb-60 wow fadeInLeft" data-wow-delay=".2s">
+                                <!-- <a href="index.html" class="logo mb-40"><img src="assets/img/logo.jpg" alt="" class="img-thumbnail" style="height: 200px; width: 200px;"></a> -->
+                                <div class="footer-social-links">
+                                    <ul>
+                                        <!-- <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li> -->
+                                        <li><a href="https://twitter.com/ASTROCORGII"><i class="lni lni-twitter-filled"></i></a></li>
+                                        <li><a href="https://t.me/AstroCorgii"><i class="lni lni-telegram"></i></a></li>
+                                        <!-- <li><a href="#"><i class="lni lni-instagram-original"></i></a></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= contact-section end ========================= -->
+
+        <!-- ========================= footer start ========================= -->
+        <!-- <footer class="footer pt-100 img-bg" style="background-image: url(assets/img/common-bg.jpg)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12">
+                        <div class="footer-widget mb-60 wow fadeInLeft" data-wow-delay=".2s">
+                            <a href="index.html" class="logo mb-40"><img src="assets/img/logo.jpg" alt="" class="img-thumbnail" style="height: 200px; width: 200px;"></a>
+                            <div class="footer-social-links">
+                                <ul>
+                                    <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
+                                    <li><a href="#"><i class="lni lni-twitter-filled"></i></a></li>
+                                    <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
+                                    <li><a href="#"><i class="lni lni-instagram-original"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+            </div>
+        </footer> -->
+        <!-- ========================= footer end ========================= -->
+
+
+        <!-- ========================= scroll-top ========================= -->
+        <a href="#" class="scroll-top">
+            <i class="lni lni-chevron-up"></i>
+        </a>
+        
+		<!-- ========================= JS here ========================= -->
+		<script src="assets/js/bootstrap.bundle-5.0.0.alpha-1-min.js"></script>
+        <script src="assets/js/contact-form.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+		<script src="assets/js/main.js"></script>
+    </body>
 </html>
