@@ -1,2 +1,0 @@
-# CryptoProject
- Prince crypto project
