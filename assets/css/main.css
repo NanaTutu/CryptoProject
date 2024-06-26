@@ -1114,7 +1114,7 @@ p {
 .sticky {
   position: fixed;
   z-index: 99;
-  background: #ffffff4b;
+  background: #06606545;;
   box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease-out 0s;
 }
@@ -1646,7 +1646,7 @@ p {
 }
 
 .frosted{
-  background-color: transparent;
+  background-color: #06606545;
   backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
